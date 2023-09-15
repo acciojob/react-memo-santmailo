@@ -25,7 +25,7 @@ const Memo = () => {
         <div>
             <h1>Memo</h1>
             <input type="text" onChange={addMemo} value={memo} />
-            <button onClick={addMemoList}>Add Memo</button>
+            <button onClick={addMemoList}>Add Skill</button>
             { showMemoList() }
         </div>
     )
